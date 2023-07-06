@@ -1329,6 +1329,16 @@ header[role='banner'] {
   .irf-footer:hover {
     opacity: 0; 
   }
+  #navigation {
+    opacity: 1; }
+  #webslides {
+    -ms-overflow-style: scroll;
+    -webkit-overflow-scrolling: scroll;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll; }
+    #webslides::-webkit-scrollbar {
+      display: block; }
 }
 
 @media (max-width: 767px) {
@@ -1675,7 +1685,7 @@ a#previous {
     background-size: 4.8rem; }
   #navigation a,
   #counter {
-    display: none; } }
+    display: block; } }
 
 /*===============================================================
 6. Magic blocks with flexbox (Auto-fill & Equal Height)
