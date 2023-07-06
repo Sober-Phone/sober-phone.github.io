@@ -1,0 +1,133 @@
+
+    /* .lightgrad {
+        background-image: linear-gradient(to bottom right, rgba(86, 202, 248, 0.911), rgba(243, 188, 136, 0.849));
+        padding-top: 30px;
+    } */
+    .lightgrad {
+        background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+        /* background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); */
+        padding-top: 50px;
+    }
+
+    .secondgrad {
+        padding-top: 50px;
+        /* padding: 50px; */
+    }
+
+    /* .col-md-4 {
+        padding: 10px;
+    } */
+
+
+    /* p {
+        font-size: 18px;
+        font-family: Inter, Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    } */
+
+    .card {
+        background-color: transparent;
+
+    }
+
+    .card-body {
+        height: 370px;
+        margin: 10px;
+        /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+
+    }
+
+    .card-img-top {
+        height: 70%;
+    }
+
+    .card-text {
+        text-align: justify;
+    }
+
+
+
+    .text-container {
+        height: 110px;
+        text-align: center;
+
+    }
+
+
+    .dynamic-text {
+        list-style: none;
+        /* position: absolute; */
+        overflow: hidden;
+        /* height: 38px; */
+        height: 1.2em;
+        text-align: center;
+        /* margin-left: 60px; */
+    }
+
+    .item {
+        position: relative;
+        top: 0;
+        animation: move 7s ease 1s infinite forwards;
+    }
+
+    /* I changes height in "dynamic text" and in "move" animation from px to em 
+        coz the font size was changing in smaller screen causing
+        some font to hide and some to look incomplete. */
+    @keyframes move {
+        0% {
+            top: 0em;
+        }
+
+        15% {
+            top: 0em;
+        }
+
+        25% {
+            top: -1.3em;
+        }
+
+        40% {
+            top: -1.3em;
+        }
+
+        50% {
+            top: -2.4em;
+        }
+
+        65% {
+            top: -2.4em;
+        }
+
+        75% {
+            top: -1.3em;
+        }
+
+        90% {
+            top: -1.3em;
+        }
+
+        100% {
+            top: -0em;
+        }
+    }
+
+    .alert {
+        padding: 10px;
+        margin-top: 5px;
+        background-color: #369a15;
+        color: white;
+      }
+      
+      .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      
+      .closebtn:hover {
+        color: black;
+      }
