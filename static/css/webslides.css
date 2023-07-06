@@ -1314,8 +1314,8 @@ header[role='banner'] {
   opacity: 1; }
   header[role='banner']:hover {
     opacity: 1; }
-
-@media (max-width: 767px) {
+/* Changes by irfan */
+@media (max-width: 960px) {
   header[role='banner'] {
     opacity: 0; 
   }
@@ -1324,12 +1324,12 @@ header[role='banner'] {
     background-color: #ffff;  
   }
   .irf-footer {
-    opacity: 0; 
+    opacity: 1; 
   }
   .irf-footer:hover {
-    opacity: 0; 
+    opacity: 1; 
   }
-  #navigation {
+  /* #navigation {
     opacity: 1; }
   #webslides {
     -ms-overflow-style: scroll;
@@ -1338,7 +1338,7 @@ header[role='banner'] {
     overflow-x: scroll;
     overflow-y: scroll; }
     #webslides::-webkit-scrollbar {
-      display: block; }
+      display: block; } */
 }
 
 @media (max-width: 767px) {
